@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "LaunchpointCase": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Diary": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Activity": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Log": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}

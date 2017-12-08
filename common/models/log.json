@@ -1,0 +1,55 @@
+{
+  "name": "Log",
+  "plural": "Logs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "client_id": {
+      "type": "number"
+    },
+    "source_app": {
+      "type": "string"
+    },
+    "is_sensitive": {
+      "type": "boolean"
+    },
+    "action": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "actor_type": {
+      "type": "number"
+    },
+    "event": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "process_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "extended_attributes": {
+      "type": "boolean"
+    },
+    "loggerable": {
+      "type": {
+        "type": "string",
+        "case_id": "number",
+        "client_id": "number"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

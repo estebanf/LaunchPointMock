@@ -1,0 +1,78 @@
+{
+  "name": "LaunchpointCase",
+  "plural": "LaunchpointCases",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CaseId": {
+      "type": "number"
+    },
+    "ClientId": {
+      "type": "number"
+    },
+    "ISOIndicator": {
+      "type": "number"
+    },
+    "Score": {
+      "type": "number"
+    },
+    "AccidentDate": {
+      "type": "date"
+    },
+    "BenefitAmount": {
+      "type": "number"
+    },
+    "FundingSource": {
+      "type": "string"
+    },
+    "LOB": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "WorkComp": {
+      "type": "string"
+    },
+    "CaseStatus": {
+      "type": "string"
+    },
+    "CaseSource": {
+      "type": "string"
+    },
+    "SkipDuplicateCheck": {
+      "type": "boolean"
+    },
+    "InvalidAddress": {
+      "type": "boolean"
+    },
+    "LifecycleDescription": {
+      "type": "string"
+    },
+    "CloseReason": {
+      "type": "string"
+    },
+    "CreateDate": {
+      "type": "date"
+    },
+    "ModifyDate": {
+      "type": "date"
+    },
+    "CreatedBy": {
+      "type": "string"
+    },
+    "ModifyBy": {
+      "type": "string"
+    },
+    "EnvironmentId": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
